@@ -11,7 +11,7 @@ public class Broker {
         Properties configProps = new Properties();
 
         // org.example.Broker will run at this IPv4 address and at this port.
-        configProps.setProperty("host", "10.30.181.166"); // Listening on all network interfaces
+        configProps.setProperty("host", "0.0.0.0"); // Listening on all network interfaces
         configProps.setProperty("port", "1883");   // MQTT default port
 
         try {
