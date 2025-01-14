@@ -5,7 +5,7 @@ import org.eclipse.paho.client.mqttv3.*;
 public class Client {
     public static void main(String[] args) {
         // org.example.Broker address (IPv4 address of the computer of the org.example.Broker is on)
-        String broker = "tcp://10.30.181.166:1883"; // IPv4 of org.example.Broker
+        String broker = "tcp://0.0.0.0:1883"; // IPv4 of org.example.Broker
         String clientId = "JavaClient";             // Unique client ID
         String topic = "test/topic";               // Topic to be used
         String messageContent = "Hello from Client!"; // The message.
